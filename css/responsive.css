@@ -1,0 +1,143 @@
+@media (max-width: 836px) {
+    body{
+        height: 115vh !important;
+    }
+}
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    body{
+        background-image: url("../imgs/background1-2.png");
+    }
+    main {
+        margin-bottom: 15vh !important;
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .buttons{
+        display: flex;
+        gap: 20px;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .img-container{
+        padding-top: 15vh;
+    }
+    .img-container img{
+        width: 30vw !important;
+    }
+    .text-container {
+        width: 100vw;
+    }
+    .text {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .text h1 {
+        font-size: 2rem;
+    }
+    .text p {
+        font-size: 1rem;
+    }
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .buttons button {
+        width: 70%;
+    }
+
+    /* Ícone de mais informações */
+    .more-information-icon img {
+        display: none !important;
+    }
+    .img-yuri{
+        width: 100vw !important;
+        margin: auto !important;
+    }
+    /* Sobre mim */
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+    }
+    .information-container {
+        padding: 0;
+        margin-top: 0 !important;
+        width: 90vw;
+    }
+
+    /* Serviços */
+    .services {
+        height: 100vh;
+        gap: 20px;
+    }
+    .service-container {
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    .service-container img{
+        width: 20vw;
+    }
+    .service-container button {
+        width: 50vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Seção Mídias Sociais */
+    .media-social-service {
+        flex-direction: column;
+        text-align: center;
+        height: 100vh;
+        gap: 25px;
+    }
+    .social-img {
+        width: 45%;
+    }
+    .information-social-media {
+        width: 70%;
+        height: auto;
+        font-size: 80%;
+    }
+    .information-social-media button {
+        width: 80%;
+    }
+
+    .service-container-section {
+        text-align: center;
+        height: auto;
+        padding: 50px 20px;
+    }
+    .service-container-section h1, 
+    .service-container-section p {
+        width: 90%;
+    }
+    .service-container-section button {
+        width: 80%;
+    }
+
+    footer {
+        height: 100vh;
+    }
+    footer ul{
+        font-size: 90%;
+    }
+    a{
+        width: 100% !important;
+        text-decoration: none !important;
+    }
+}
